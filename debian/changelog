@@ -1,5 +1,55 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-alexflint-go-filemutex (1.2.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 1.2.0
+  * Add golang-golang-x-sys-dev to Depends
+  * Update Standards-Version to 4.6.1 (no changes)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 20 Aug 2022 16:06:37 +0800
+
+golang-github-alexflint-go-filemutex (1.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse.
+
+  [ Shengjing Zhu ]
+  * Add Multi-Arch hint
+  * Update Standards-Version to 4.6.0 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Wed, 02 Mar 2022 23:57:28 +0800
+
+golang-github-alexflint-go-filemutex (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Dmitry Smirnov ]
+  * updated watch file to track new upstream releases.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Shengjing Zhu ]
+  * No need repacksuffix in uscan
+  * New upstream version 1.1.0
+  * Drop test dependency from Depends
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Bump debhelper-compat to 13
+  * Update Section to golang
+  * Drop unused Files-Excluded field in copyright file
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 26 Jan 2021 00:59:09 +0800
+
+golang-github-alexflint-go-filemutex (0.0+git20171028.d358565-2) unstable; urgency=medium
+
+  * Standards-Version: 4.4.1.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 19 Oct 2019 11:10:23 +1100
+
+golang-github-alexflint-go-filemutex (0.0+git20171028.d358565-1) unstable; urgency=medium
+
+  * Initial release (Closes: #939857)
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 09 Sep 2019 23:42:21 +1000
